@@ -22,6 +22,13 @@ async function loadProducts() {
         container.appendChild(element2);
 
     });
+
+    var navButton = document.getElementById('nav-button');
+var navMenu = document.getElementById('nav-menu');
+
+navButton.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+});
         
     
 

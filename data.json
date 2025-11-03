@@ -1,16 +1,25 @@
 [
     {
-        "name": "camiseta blanca",
-        "price": 10.99
-    },
+        "name": "Flecha antigua",
+        "price": 10.99,
+        "photo": "flecha.jpg"
+        },
 
         {
-        "name": "camiseta azul",
-        "price": 10.99
-    },
+        "name": "katana (zangetsu)",
+        "price": 10.99,
+        "photo": "images.jfif"
+        },
 
         {
-        "name": "camiseta roja",
+        "name": "Teclado (the power)",
+        "price": 10.99,
+        "photo": "teclado.jpg"
+        },
+
+
+        {
+        "name": "Enchiridion (el libro de los héroes)",
         "price": 10.99
     }
 
