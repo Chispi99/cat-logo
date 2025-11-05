@@ -1,26 +1,31 @@
 [
     {
-        "name": "Flecha antigua",
-        "price": 10.99,
-        "photo": "flecha.jpg"
+    "name": "Flecha antigua",
+    "price": 50.00,
+        "photo": "il_570xN.6099307918_2o9l.avif",
+        "description": "Una flecha de apariencia clásica, pulida por manos antiguas. Cuentan las leyendas que despierta una presencia protegida en quien la porta: algunos volvieron distintos, otros simplemente desaparecieron en la memoria del pueblo. Ideal para quien busca una pieza con historia profunda."
         },
 
-        {
-        "name": "katana (zangetsu)",
-        "price": 10.99,
-        "photo": "images.jfif"
-        },
+    {
+    "name": "katana (zangetsu)",
+    "price": 349.00,
+    "photo": "proten_38_11zon.png",
+    "description": "Hoja que parece salir de un relato heroico: patina oscura, filo tranquilo. Los viejos del gremio susurran que, cuando se desata, la katana revela una voz profunda que pide actos decisivos. No es para estanterías comunes: es para coleccionistas que entienden mitos vivientes."
+    },
 
-        {
-        "name": "Teclado (the power)",
-        "price": 10.99,
-        "photo": "teclado.jpg"
-        },
+    {
+    "name": "Teclado (the power)",
+    "price": 89.50,
+    "photo": "The_power_object.webp",
+    "description": "Un teclado de aspecto corriente, teclas gastadas por largas noches. Los que saben tocar le llaman 'la caja de resonancias': dicen que las melodías que se bordan en él encuentran caminos inesperados para hacerse presentes. Recomendado para compositores que juegan con los límites de la imaginación."
+    },
 
 
         {
         "name": "Enchiridion (el libro de los héroes)",
-        "price": 10.99
+        "price": 499.00,
+        "photo": "enchiridion.jpg",
+    "description": "Tomo encuadernado con símbolos que cambian con la luz. Los viejos marineros de la ciudad murmuran que su propietario, llamado Billy en viejas canciones, usó sus páginas para trastocar destinos; hoy solo queda un ejemplar que fascina y perturba a la vez. Perfecto para quien colecciona códices con pasado inquietante."
     }
 
 

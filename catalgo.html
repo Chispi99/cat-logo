@@ -3,19 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo de Productos</title>
-     <button id="nav-button">☰</button>
-            <nav id="nav-menu">
-                <ul>
-                    <li><a>Inicio</a></li>
-                    <li><a>Servicios</a></li>
-                    <li><a>Contacto</a></li>
-                </ul>
-            </nav>
+    <title>Relicario Escondido — Antigüedades y Curiosidades</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Catálogo</h1>
-    <div id="productos"></div>
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Catálogo</a></li>
+            <li><a href="#about">Información</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio" class="site-hero">
+        <img src="logo.png" alt="Logotipo de Relicario Escondido" class="hero-logo">
+        <h1>Relicario Escondido</h1>
+        <p class="hero-sub">Antigüedades y curiosidades</p>
+    </section>
+
+    <section class="products-board">
+        <h2 class="board-title">Tablón de objetos en venta</h2>
+        <p class="board-sub">Objetos únicos a la venta</p>
+
+        <div id="productos"></div>
+    </section>
+
+    <section id="historia" class="story-section">
+        <h2 class="story-title">El Origen del Relicario Escondido</h2>
+        <div class="story-content">
+            <p>
+                Nadie recuerda cuándo apareció el local en la esquina empedrada del viejo distrito. 
+                Para los curiosos, parece una tienda más de antigüedades: vitrinas con relojes detenidos, 
+                instrumentos sin dueño y libros que cambian de tono con la luz.
+            </p>
+            <p>
+                Pero los que saben mirar —los que sienten el eco en los metales o la vibración en la madera— 
+                entienden que cada objeto guarda algo más que historia: guarda propósito. 
+                Cuentan que el primer dueño viajó por tierras olvidadas buscando reliquias que 
+                "reaccionan" ante quien las merece. 
+                Hoy, los herederos del Relicario continúan la tradición, 
+                dejando sus hallazgos al alcance de quien pueda descifrarlos.
+            </p>
+            <blockquote>
+                "No todo lo que brilla fue forjado para el adorno.  
+                Algunos metales recuerdan nombres... y esperan ser llamados otra vez."
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="about" class="about-simple">
+        <div class="about-box">
+            <h3>Sobre Relicario Escondido</h3>
+            <p>Catálogo de objetos singulares. Haz clic en "Catálogo" para ver las piezas; pulsa una tarjeta para ver más detalles.</p>
+        </div>
+    </section>
+
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close">✕</button>
+            <img src="" alt="" class="modal-img">
+            <h2 class="modal-title"></h2>
+            <p class="modal-price"></p>
+            <p class="modal-desc"></p>
+        </div>
+    </div>
+
+    <section id="contacto" class="contact-section">
+        <h3 class="contact-title">Contacto y Redes</h3>
+        <p class="contact-intro">
+            Si deseas más información sobre nuestras piezas o visitas privadas al relicario, 
+            puedes comunicarte con nosotros a través de los siguientes medios:
+        </p>
+        <div class="contact-item">
+            <strong>Teléfono:</strong>
+            <span>+34 910 555 193</span>
+        </div>
+        <div class="contact-item">
+            <strong>Redes:</strong>
+            <ul class="social-links">
+                <li>Instagram: @reliquias_arcaicas</li>
+                <li>Twitter: @tienda_antigua</li>
+                <li>Facebook: @reliquias_antiguas</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-contact">
+            <a href="mailto:contacto@relicarioescondido.test">contacto@relicarioescondido.test</a>
+        </div>
+        <div class="footer-text">
+            <strong>Relicario Escondido</strong> — Objetos únicos con historia
+            <div class="footer-small">&copy; <span id="year"></span> Relicario Escondido</div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
